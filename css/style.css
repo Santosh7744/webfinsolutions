@@ -105,7 +105,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: #6222cc !important;
     outline: none;
     transition: .5s;
 }
@@ -162,7 +162,7 @@ h6,
 
 @media (min-width: 992px) {
     .navbar-light {
-        position: absolute;
+        position: relative;
         width: 100%;
         top: 0;
         left: 0;
@@ -207,11 +207,9 @@ h6,
     }
 }
 
-
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding: 18rem 0;
+    padding: 6rem 0 11rem 0rem;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
